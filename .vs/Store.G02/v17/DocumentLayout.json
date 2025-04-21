@@ -5,6 +5,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{05B76920-92AA-465E-8B02-E8B856FEFFC0}|Infrastructure\\Presentation\\Presentation.csproj|c:\\users\\nvidia\\source\\repos\\store.g02\\infrastructure\\presentation\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05B76920-92AA-465E-8B02-E8B856FEFFC0}|Infrastructure\\Presentation\\Presentation.csproj|solutionrelative:infrastructure\\presentation\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B18E0F-0C8A-422F-A036-62BF72AAF10F}|Core\\Services\\Services.csproj|c:\\users\\nvidia\\source\\repos\\store.g02\\core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B18E0F-0C8A-422F-A036-62BF72AAF10F}|Core\\Services\\Services.csproj|solutionrelative:core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B18E0F-0C8A-422F-A036-62BF72AAF10F}|Core\\Services\\Services.csproj|c:\\users\\nvidia\\source\\repos\\store.g02\\core\\services\\specifications\\basespecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B18E0F-0C8A-422F-A036-62BF72AAF10F}|Core\\Services\\Services.csproj|solutionrelative:core\\services\\specifications\\basespecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961C2D0E-8C88-49B9-B557-8AC2B757B875}|Shared\\Shared.csproj|c:\\users\\nvidia\\source\\repos\\store.g02\\shared\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961C2D0E-8C88-49B9-B557-8AC2B757B875}|Shared\\Shared.csproj|solutionrelative:shared\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC17965-B4BA-475E-8B30-27B60EBED603}|Core\\Domain\\Domain.csproj|c:\\users\\nvidia\\source\\repos\\store.g02\\core\\domain\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC17965-B4BA-475E-8B30-27B60EBED603}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961C2D0E-8C88-49B9-B557-8AC2B757B875}|Shared\\Shared.csproj|c:\\users\\nvidia\\source\\repos\\store.g02\\shared\\productspecificationsparamters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961C2D0E-8C88-49B9-B557-8AC2B757B875}|Shared\\Shared.csproj|solutionrelative:shared\\productspecificationsparamters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B18E0F-0C8A-422F-A036-62BF72AAF10F}|Core\\Services\\Services.csproj|c:\\users\\nvidia\\source\\repos\\store.g02\\core\\services\\specifications\\productwithbrandsandtypesspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B18E0F-0C8A-422F-A036-62BF72AAF10F}|Core\\Services\\Services.csproj|solutionrelative:core\\services\\specifications\\productwithbrandsandtypesspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44673086-CAA5-4E66-861C-A1BD710B6AC1}|Core\\Services.Abstractions\\Services.Abstractions.csproj|c:\\users\\nvidia\\source\\repos\\store.g02\\core\\services.abstractions\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44673086-CAA5-4E66-861C-A1BD710B6AC1}|Core\\Services.Abstractions\\Services.Abstractions.csproj|solutionrelative:core\\services.abstractions\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,15 +62,106 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductWithBrandsAndTypesSpecifications.cs",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Core\\Services\\Specifications\\ProductWithBrandsAndTypesSpecifications.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\Specifications\\ProductWithBrandsAndTypesSpecifications.cs",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Core\\Services\\Specifications\\ProductWithBrandsAndTypesSpecifications.cs",
+              "RelativeToolTip": "Core\\Services\\Specifications\\ProductWithBrandsAndTypesSpecifications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T18:56:18.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductSpecificationsParamters.cs",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Shared\\ProductSpecificationsParamters.cs",
+              "RelativeDocumentMoniker": "Shared\\ProductSpecificationsParamters.cs",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Shared\\ProductSpecificationsParamters.cs",
+              "RelativeToolTip": "Shared\\ProductSpecificationsParamters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T18:55:24.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Core\\Domain\\Contracts\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Contracts\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Core\\Domain\\Contracts\\IGenericRepository.cs",
+              "RelativeToolTip": "Core\\Domain\\Contracts\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:59:43.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaginationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Shared\\PaginationResponse.cs",
+              "RelativeDocumentMoniker": "Shared\\PaginationResponse.cs",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Shared\\PaginationResponse.cs",
+              "RelativeToolTip": "Shared\\PaginationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:37:22.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Core\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Core\\Services\\ProductService.cs",
+              "RelativeToolTip": "Core\\Services\\ProductService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:02:31.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Infrastructure\\Presentation\\ProductsController.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Presentation\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Infrastructure\\Presentation\\ProductsController.cs",
               "RelativeToolTip": "Infrastructure\\Presentation\\ProductsController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACQAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:43:03.041Z",
+              "WhenOpened": "2025-04-21T15:00:09.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseSpecifications.cs",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Core\\Services\\Specifications\\BaseSpecifications.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\Specifications\\BaseSpecifications.cs",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Core\\Services\\Specifications\\BaseSpecifications.cs",
+              "RelativeToolTip": "Core\\Services\\Specifications\\BaseSpecifications.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwB4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:15:14.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Core\\Services.Abstractions\\IProductService.cs",
+              "RelativeDocumentMoniker": "Core\\Services.Abstractions\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Nvidia\\source\\repos\\Store.G02\\Core\\Services.Abstractions\\IProductService.cs",
+              "RelativeToolTip": "Core\\Services.Abstractions\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T15:01:55.2Z",
               "EditorCaption": ""
             }
           ]

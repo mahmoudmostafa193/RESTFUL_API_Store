@@ -17,3 +17,4 @@ C:\Users\Nvidia\source\repos\Store.G02\Core\Services\obj\Debug\net8.0\Services.d
 C:\Users\Nvidia\source\repos\Store.G02\Core\Services\obj\Debug\net8.0\refint\Services.dll
 C:\Users\Nvidia\source\repos\Store.G02\Core\Services\obj\Debug\net8.0\Services.pdb
 C:\Users\Nvidia\source\repos\Store.G02\Core\Services\obj\Debug\net8.0\ref\Services.dll
+C:\Users\Nvidia\source\repos\Store.G02\Core\Services\obj\Debug\net8.0\Services.sourcelink.json

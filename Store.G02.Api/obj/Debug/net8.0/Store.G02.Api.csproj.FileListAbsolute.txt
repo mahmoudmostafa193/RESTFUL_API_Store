@@ -159,3 +159,5 @@ C:\Users\Nvidia\source\repos\Store.G02\Store.G02.Api\obj\Debug\net8.0\ref\Store.
 C:\Users\Nvidia\source\repos\Store.G02\Store.G02.Api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Nvidia\source\repos\Store.G02\Store.G02.Api\bin\Debug\net8.0\Services.dll
 C:\Users\Nvidia\source\repos\Store.G02\Store.G02.Api\bin\Debug\net8.0\Services.pdb
+C:\Users\Nvidia\source\repos\Store.G02\Store.G02.Api\obj\Debug\net8.0\Store.G02.Api.sourcelink.json
+C:\Users\Nvidia\source\repos\Store.G02\Store.G02.Api\bin\Debug\net8.0\Store.G02.Api.staticwebassets.runtime.json

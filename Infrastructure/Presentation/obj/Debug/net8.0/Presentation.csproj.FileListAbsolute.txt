@@ -15,3 +15,4 @@ C:\Users\Nvidia\source\repos\Store.G02\Infrastructure\Presentation\obj\Debug\net
 C:\Users\Nvidia\source\repos\Store.G02\Infrastructure\Presentation\obj\Debug\net8.0\refint\Presentation.dll
 C:\Users\Nvidia\source\repos\Store.G02\Infrastructure\Presentation\obj\Debug\net8.0\Presentation.pdb
 C:\Users\Nvidia\source\repos\Store.G02\Infrastructure\Presentation\obj\Debug\net8.0\ref\Presentation.dll
+C:\Users\Nvidia\source\repos\Store.G02\Infrastructure\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json

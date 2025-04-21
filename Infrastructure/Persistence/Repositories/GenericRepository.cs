@@ -20,7 +20,12 @@ namespace Persistence.Repositories
 
         public async Task AddAsync(TEntity entity)
         {
-            await _context.Set<TEntity>().AddAsync(entity); // Fixed CS0119: Correctly invoking the method  
+            await _context.Set<TEntity>().AddAsync(entity); 
+        }
+
+        public async Task<int> CountAsync(ISpecifications<TEntity, TKey> spec)
+        {
+           return await ApplySpecifications(spec).CountAsync();
         }
 
         public void Delete(TEntity entity)
@@ -46,22 +51,40 @@ namespace Persistence.Repositories
             }
         }
 
-        public async Task<TEntity?> GetAsync(TKey  id)
+        public async Task<IEnumerable<TEntity>> GetAllAsync(ISpecifications<TEntity, TKey> spec, bool trackChanges = false)
         {
-            if(typeof(TEntity)==typeof(Product))
+            return await ApplySpecifications(spec).ToListAsync();
+        }
+
+        public async Task<TEntity?> GetAsync(TKey id)
+        {
+            if (typeof(TEntity) == typeof(Product))
             {
                 return await _context.Products
-                .Include(p => p.ProductBrand)
-                .Include(p => p.ProductType)
-                .FirstOrDefaultAsync(P => P.Id == id as int?) as TEntity;
+                   .Include(p => p.ProductBrand)
+                   .Include(p => p.ProductType)
+                   .Where(p => p.Id == id as int?)
+                    .FirstOrDefaultAsync() as TEntity;
+
             }
             return await _context.Set<TEntity>().FindAsync(id);
+        }
+
+     
+
+        public async Task<TEntity?> GetAsync(ISpecifications<TEntity, TKey> spec)
+        {
+            return await ApplySpecifications(spec).FirstOrDefaultAsync();
         }
 
         public void Update(TEntity entity)
         {
             _context.Update(entity);
             
+        }
+        private IQueryable<TEntity> ApplySpecifications(ISpecifications<TEntity, TKey> spec)
+        {
+            return SpecificationEvaluator.GetQuery(_context.Set<TEntity>(), spec);
         }
     }
     

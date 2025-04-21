@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Services;
+using Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,28 +14,28 @@ namespace Presentation
     public class ProductsController(IServiceManager serviceManager) : ControllerBase
     {
         [HttpGet]
-        public async Task<IActionResult> GetAllProducts()
+        public async Task<IActionResult> GetAllProducts([FromQuery]ProductSpecificationsParamters specParams)
         {
-            var result = await serviceManager.ProductService.GetAllProductsAsync();
+            var result = await serviceManager.ProductService.GetAllProductsAsync(specParams);
             if (result == null) return BadRequest();
             return Ok(result);
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetProductById(int id)
+        public async Task<IActionResult> GetProductById(int id, int? brandId, int? typeId)
         {
 
            var result=await serviceManager.ProductService.GetProductByIdAsync(id);
             if (result == null) return NotFound();
             return Ok(result);
         }
-        [HttpGet("Brands")]
+        [HttpGet("brands")]
         public async Task<IActionResult> GetAllBrands()
         {
             var result = await serviceManager.ProductService.GetAllBrandsAsync();
             if (result == null) return BadRequest();
             return Ok(result);
         }
-        [HttpGet("Types")]
+        [HttpGet("types")]
         public async Task<IActionResult> GetAllTypes()
         {
             var result = await serviceManager.ProductService.GetAllTypesAsync();
